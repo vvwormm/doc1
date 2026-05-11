@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование — The Blind Fox</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">The Blind Fox</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="menu.html">Меню</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="booking-section">
+    <h2>Бронирование столика</h2>
+
+    <form id="bookingForm">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон" required>
+
+        <input type="date" required>
+        <input type="time" required>
+
+        <select>
+            <option>2 человека</option>
+            <option>4 человека</option>
+            <option>6 человек</option>
+        </select>
+
+        <button type="submit">Забронировать</button>
+    </form>
+</section>
+
+</body>
+</html>
